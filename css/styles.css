@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border-radius: 10px;
+  overflow: hidden;
+  color: rgb(36, 41, 47);
+  background: none;
+  width: 500px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Font Awesome 6 Free';
+}
+
+a {
+  color: #0969da;
+}
+
+button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(36, 41, 47);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.header h1 {
+  font-size: 1.2rem;
+}
+
+.header a {
+  font-size: 2.5rem;
+  color: inherit;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.content {
+  padding: 0 1rem 1rem;
+}
+
+.postList {
+  list-style: none;
+  max-height: 400px;
+  overflow: auto;
+  padding: 0 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.postList li {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postList li:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.postList button {
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.postList i {
+  font-size: 1.8rem;
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.savePost {
+  border-radius: 6px;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  padding: 9px 20px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 164, 78);
+  box-shadow: rgb(27 31 36 / 10%) 0px 1px 0px;
+  width: 100%;
+}
+
+.savePost i {
+  margin-right: 0.5rem;
+}

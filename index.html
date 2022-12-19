@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/fontawesome.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="assets/dark-filled.svg" class="tabnewsIcon" />
+                <h1>TabNews Save</h1>
+            </div>
+
+            <a href="https://github.com/SilvanoGPM/tabnews-save" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </header>
+
+        <section class="content">
+
+            <ul data-js="post-list" class="postList"></ul>
+
+            <p data-js="message" class="message">Carregando...</p>
+
+            <button data-js="save-post" class="savePost disabled">
+                <i class="fa-solid fa-plus"></i>
+                Salvar Post
+            </button>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
