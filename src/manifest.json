@@ -3,7 +3,7 @@
   "description": "Salve os posts do TabNews para ler mais tarde.",
   "version": "1.0.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting", "tabs", "storage", "background"],
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
   "action": {
     "default_popup": "index.html"
   },
@@ -12,5 +12,10 @@
     "32": "assets/icons/icon32.png",
     "48": "assets/icons/icon48.png",
     "128": "assets/icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tabnews-save@silvanomarques.com"
+    }
   }
 }

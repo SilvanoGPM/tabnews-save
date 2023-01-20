@@ -1,0 +1,22 @@
+{
+  "name": "tabnews-save",
+  "version": "1.0.0",
+  "description": "Extensão para navegadores, salve os posts do TabNews para ler mais tarde.",
+  "scripts": {
+    "start:firefox": "web-ext run --source-dir ./src/",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilvanoGPM/tabnews-save.git"
+  },
+  "keywords": ["extension", "tabnews"],
+  "author": "Silvano Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilvanoGPM/tabnews-save/issues"
+  },
+  "homepage": "https://github.com/SilvanoGPM/tabnews-save#readme",
+  "devDependencies": {
+    "web-ext": "^7.4.0"
+  }
+}
