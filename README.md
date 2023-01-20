@@ -3,7 +3,7 @@
 <p align="center">Extensão para Google Chrome, salve os posts do TabNews para ler mais tarde.</p>
 
 <p align="center">
-  <img src="assets/icons/icon128.png" />
+  <img src="src/assets/icons/icon128.png" />
 </p>
 
 ## Como instalar a extensão? 🔨
