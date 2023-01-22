@@ -8,6 +8,12 @@
 
 ## Como instalar a extensão? 🔨
 
+### Firefox
+
+https://addons.mozilla.org/pt-BR/firefox/addon/tabnews-save/
+
+### Chrome
+
 Atualmente a extensão funciona apenas no Google Chrome, e infelizmente não consegui realizar o envio para o Chrome Web Store(aparentemente precisa pagar $5 para ter o acesso), então a instalação precisa ser manual.
 
 ### Passo a passo 👟
