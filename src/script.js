@@ -59,7 +59,7 @@ function renderPost({ user, slug, title }) {
     $anchor.setAttribute('target', '_blank');
     $anchor.textContent = title;
 
-    $button.innerHTML = '<i class="fa-regular fa-close"></i>';
+    $button.innerHTML = '<i class="fa-regular fa-x"></i>';
     $button.addEventListener('click', () => handleRemove(slug));
 
     $li.appendChild($anchor);

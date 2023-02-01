@@ -1,9 +1,9 @@
 {
   "name": "tabnews-save",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extensão para navegadores, salve os posts do TabNews para ler mais tarde.",
   "scripts": {
-    "start:firefox": "web-ext run --source-dir ./src/",
+    "start:firefox": "web-ext run --source-dir ./src/"
   },
   "repository": {
     "type": "git",
