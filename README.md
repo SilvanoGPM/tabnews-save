@@ -3,10 +3,16 @@
 <p align="center">Extensão para Google Chrome, salve os posts do TabNews para ler mais tarde.</p>
 
 <p align="center">
-  <img src="assets/icons/icon128.png" />
+  <img src="src/assets/icons/icon128.png" />
 </p>
 
 ## Como instalar a extensão? 🔨
+
+### Firefox
+
+https://addons.mozilla.org/pt-BR/firefox/addon/tabnews-save/
+
+### Chrome
 
 Atualmente a extensão funciona apenas no Google Chrome, e infelizmente não consegui realizar o envio para o Chrome Web Store(aparentemente precisa pagar $5 para ter o acesso), então a instalação precisa ser manual.
 
