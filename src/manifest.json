@@ -1,7 +1,7 @@
 {
   "name": "TabNews Save",
   "description": "Salve os posts do TabNews para ler mais tarde.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting", "tabs", "storage"],
   "action": {
