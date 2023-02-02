@@ -14,7 +14,7 @@ https://addons.mozilla.org/pt-BR/firefox/addon/tabnews-save/
 
 ### Chrome
 
-Atualmente a extensão funciona apenas no Google Chrome, e infelizmente não consegui realizar o envio para o Chrome Web Store(aparentemente precisa pagar $5 para ter o acesso), então a instalação precisa ser manual.
+Infelizmente a instalação no Chrome é feita manualmente.
 
 ### Passo a passo 👟
 
@@ -22,7 +22,7 @@ Atualmente a extensão funciona apenas no Google Chrome, e infelizmente não con
 2. Abra o seu Google Chrome.
 3. Vá em <img src="https://imgur.com/yKkBAZ7.png" /> / Mais Ferramentas / Extensões.
 4. Ative o modo desenvolvedor.
-5. Clique em carregar sem compactação, escolha a pasta onde você salvou o código e pronto, tudo deve estar funcionando.
+5. Clique em carregar sem compactação, escolha a pasta onde você salvou o código, clique em `src` e pronto, tudo deve estar funcionando.
 
 ## Roadmap 🗺️
 
